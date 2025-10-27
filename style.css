@@ -1,6 +1,3 @@
-/* 🎨 ===========================
-   SISTEMA DE DESIGN GLOBAL
-   =========================== */
 
 :root {
   /* Paleta de Cores */
@@ -41,9 +38,7 @@
   --gutter: 16px;
 }
 
-/* ===============================
-   ESTILOS BASE
-   =============================== */
+
 
 * {
   margin: 0;
@@ -60,14 +55,12 @@ body {
 
 /* Container principal em grid */
 main, section, header, footer {
-  max-width: var(--container-width);
+  max-width: 100%;
   margin: 0 auto;
   padding: var(--space-3);
 }
 
-/* ===============================
-   CABEÇALHO E MENU
-   =============================== */
+
 
 header {
   background: var(--color-primary);
@@ -138,9 +131,7 @@ nav a.active {
   }
 }
 
-/* ===============================
-   HERO SECTION
-   =============================== */
+
 
 .hero {
   background: linear-gradient(to right, var(--color-primary), var(--color-accent));
@@ -159,9 +150,6 @@ nav a.active {
   margin-bottom: var(--space-3);
 }
 
-/* ===============================
-   BOTÕES
-   =============================== */
 
 .btn-primary,
 .btn-secondary {
@@ -195,9 +183,7 @@ nav a.active {
   color: var(--color-primary);
 }
 
-/* ===============================
-   CARDS DE PROJETOS
-   =============================== */
+
 
 .impact-cards {
   display: grid;
@@ -224,9 +210,7 @@ nav a.active {
   margin-bottom: var(--space-2);
 }
 
-/* ===============================
-   FORMULÁRIOS
-   =============================== */
+
 
 form {
   background: var(--color-neutral-100);
@@ -269,9 +253,6 @@ input:focus, select:focus, textarea:focus {
   box-shadow: 0 0 4px var(--color-primary-light);
 }
 
-/* ===============================
-   COMPONENTES DE FEEDBACK
-   =============================== */
 
 .success-message {
   display: none;
@@ -298,9 +279,6 @@ input:focus, select:focus, textarea:focus {
 .badge.cultura { background: #e91e63; }
 .badge.admin { background: #9c27b0; }
 
-/* ===============================
-   FOOTER
-   =============================== */
 
 footer {
   text-align: center;
@@ -309,9 +287,7 @@ footer {
   padding: var(--space-3);
 }
 
-/* ===============================
-   BREAKPOINTS
-   =============================== */
+
 
 @media (max-width: 1200px) { /* Desktop menor */}
 @media (max-width: 992px)  { /* Tablet paisagem */ }
